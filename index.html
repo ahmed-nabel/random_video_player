@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Video Player</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/0db1ce7ac6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>Random Video Player</h1>
+  <video src="video/110_JSON.mp4" id="video" poster="img/start.gif"></video>
+  <div class="controller">
+    <button class="controls" id="play"><i class="fas fa-play fa-2x"></i></button>
+    <button class="controls" id="stop"><i class="fas fa-stop fa-2x"></i></button>
+    <input type="range" id="controller" min="0" max="100" step="0.1" value="0"/>
+    <span id="time">00:00</span>
+    <button class="randomize" id="randomize">Randomize</button>
+  </div>
+  <!-- <script src="js/main.js" type="module"></script>
+  <script src="js/atjsUtilities.js" type="module"></script>
+  <script src="js/randomVideo.js" type="module"></script>
+  <script src="js/videoPlayer.js" type="module"></script> -->
+  <script src="./public/bundle.js"></script>
+</html>
